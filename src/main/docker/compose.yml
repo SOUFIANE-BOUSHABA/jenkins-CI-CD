@@ -1,0 +1,17 @@
+name: devopsDb
+services:
+  postgres:
+    container_name: devopsDb
+    image: 'postgres:17'
+    environment:
+      - 'POSTGRES_DB=devopsDb'
+      - 'POSTGRES_PASSWORD=devopsDb'
+      - 'POSTGRES_USER=devopsDb'
+    ports:
+      - '5433:5432'
+volumes:
+  postgres_data:
+    driver: local
+networks:
+  jenkins-network:
+    driver: bridge
