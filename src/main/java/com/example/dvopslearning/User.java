@@ -18,7 +18,14 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @SuppressWarnings("unused")
     private String username;
+
+    @SuppressWarnings("unused")
     private String email;
+
+    @SuppressWarnings("unused")
     private String password;
 }
+
