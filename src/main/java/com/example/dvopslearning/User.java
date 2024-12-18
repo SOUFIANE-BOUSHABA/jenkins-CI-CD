@@ -25,6 +25,7 @@ public class User {
     @SuppressWarnings("unused")
     private String email;
 
+
     @SuppressWarnings("unused")
     private String password;
 }
