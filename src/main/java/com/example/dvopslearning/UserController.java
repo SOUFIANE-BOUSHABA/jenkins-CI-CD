@@ -18,4 +18,11 @@ public class UserController {
         return userRepository.findAll();
     }
 
+    @GetMapping("/emails")
+    public List<String> getAllUserEmails() {
+        return userRepository.findAll()
+                .stream()
+                .map(User::getEmail)
+                .toList();
+    }
 }
