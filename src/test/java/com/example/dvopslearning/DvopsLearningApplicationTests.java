@@ -11,6 +11,7 @@ class DvopsLearningApplicationTests {
     @Test
    void test() {
        assertTrue(true);
+
     }
 
 }
