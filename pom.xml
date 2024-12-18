@@ -20,7 +20,7 @@
           It's recommended to store sensitive tokens (like sonar.login)
           in Jenkins credentials or environment variables, not in the pom.xml
         -->
-        <sonar.login>sqa_9c0f48a04423d62938c3c2a086ee95859e3a1a43</sonar.login>
+        <sonar.login>sqa_69684b749affa0a6da3b9d5a2c32d460c2960520</sonar.login>
         <!-- JaCoCo version can be updated to the latest stable release -->
         <jacoco.version>0.8.10</jacoco.version>
         <sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
